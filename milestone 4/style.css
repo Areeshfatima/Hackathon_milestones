@@ -1,0 +1,81 @@
+body {
+    margin : 20px;
+    padding : 0;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color : white;
+}
+
+form {
+    margin : auto;
+    padding : 20px;
+    max-width : 600px;
+    background-color : #fcfffd;
+    border-radius : 8px;
+    box-shadow : 0 4px 8px #64b6ac;
+}   
+
+h1 {
+    text-align : center;
+    font-family :'Times New Roman', Times, serif;
+}
+
+fieldset {
+    margin-bottom : 20px;
+    background-color : #c0fdfb;
+    border : 2px solid #64b6ac;
+}
+
+legend {
+    font-weight : bold;
+    text-align : start;
+    color : rgb(24, 21, 21);
+}
+
+label {
+    display : block;
+    margin-top : 10px;
+    color : black;
+}
+
+input, textarea {
+    margin-top : 4px;
+    padding : 3px;
+    width : calc(100% - 1px);
+    border : 1px solid #64b6ac;
+    border-radius : 4px;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+}
+
+.button-container {
+    display : flex;
+    justify-content : center;
+}
+
+button {
+    background-color : #64b6ac;
+    color : #fcfffd;
+    border-radius : 6px;
+    border : #0ab1ab;
+    box-shadow : 0 4px 6px #c0fdfb;
+    margin : 4px;
+    padding : 20px 80px 20px 80px;
+    display : flex;
+    align-items : center;
+      
+}
+
+
+button:hover {
+    color : #237a78;
+}
+
+#display-resume {
+    margin : auto;
+    padding : 20px;
+    max-width : 600px;
+    background-color : #fcfffd;
+    border-radius : 8px;
+    box-shadow : 0 4px 8px #64b6ac;
+    outline : none; /*for making resume editable */
+}
+
